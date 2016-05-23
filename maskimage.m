@@ -10,15 +10,6 @@
 %
 % Returns: maskedim - The masked image
 %
-% See also; DRAWREGIONBOUNDARIES
-
-% Peter Kovesi
-% Centre for Exploration Targeting
-% School of Earth and Environment
-% The University of Western Australia
-% peter.kovesi at uwa edu au
-%
-% Feb 2013
 
 function maskedim = maskimage(im, mask, col)
     
