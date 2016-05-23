@@ -11,8 +11,6 @@ imsegs=image_data;
 save genfeatures;
 
 % 3. Train using the SVM classifier
-% NOTE: In this script, you will need to change the SVM directory  
-% setings and the cross-validation index number (between 1 and 5)
 % This script saves the workspace 'svm_train_wspace.mat';
 trainSceneLabels;
 save svm_train_wspace;
