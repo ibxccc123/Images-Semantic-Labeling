@@ -35,7 +35,6 @@ for n = 1:Nspix
 end
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% DO SVM TRAINING OR YOUR OWN CLASSIFIER TRAINING HERE....
 % train one versus all and store all the models (1 class versus others)
 disp('Setting up the spix for the training dataset')
 trainx = train_idx{foldidx}; %NOTE to change this for next validation round
@@ -49,10 +48,10 @@ for n = 1:length(trainx)
   counter=counter+size(tmpids,1); 
 end
 train_ids = train_ids(1:counter);
-Ftrain = F(train_ids,:); %Use this as your training data
-Ctrain = C(train_ids); %Use this as the labels for your training data
+Ftrain = F(train_ids,:); 
+Ctrain = C(train_ids); 
 
-%
+
 len = length(train_ids);
 randlist = randperm(len);
 Ftrain = Ftrain(randlist (1:10000),:);
