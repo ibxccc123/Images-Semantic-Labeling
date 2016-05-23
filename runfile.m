@@ -18,6 +18,5 @@ trainSceneLabels;
 save svm_train_wspace;
 
 % 4. Get the predictions made by the SVM classifier on test dataset
-% Optionally, a confusion matrix can be generated to display results.
 testSceneLabels;
 save svm_test_wspace;
