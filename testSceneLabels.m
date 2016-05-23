@@ -40,7 +40,6 @@ end
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% This section below is optional
 % Plot performance
 % Confusion matrix:
 disp('Setting up the confusion matrix')
