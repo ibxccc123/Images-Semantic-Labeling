@@ -1,5 +1,5 @@
 # Images-Semantic-Labeling
-A Matlab classifier that performs semantic labeling with a SIFT keypoint detector to label superpixels.
+Matlab training/testing scripts that perform semantic labeling with a SIFT keypoint detector to label superpixels
 
 The runfile receives an image load and extracts the features for all superpixel groups and saves the output as a .mat file.  Then, using the features database, the SVM classifier is trained through the trainSceneLabels.m script in order for the learning
 model to recognize each superpixel scene feature.  After the training is complete, the script in testSceneLabels.m tests out the classifier to compute the maximal score for feature selection. 
